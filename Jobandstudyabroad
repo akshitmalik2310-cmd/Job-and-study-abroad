@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job and Study Abroad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: #0a3cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #062db3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #0a3cff;
+        }
+        .services, .countries {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background: #0a3cff;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn.whatsapp {
+            background: #25d366;
+        }
+        footer {
+            background: #062db3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Job and Study Abroad</h1>
+    <p>Helping You Build a Successful Career Abroad</p>
+    <a class="btn" href="tel:7505556889">Call Now</a>
+    <a class="btn whatsapp" href="https://wa.me/917505556889">WhatsApp</a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#countries">Countries</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Job and Study Abroad is a professional consultancy helping students and
+        working professionals find job and study opportunities in top countries
+        like the UK, Australia, UAE, and more.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="box">Overseas Job Assistance</div>
+        <div class="box">Study Abroad Guidance</div>
+        <div class="box">Visa & Documentation Support</div>
+        <div class="box">Career Counseling</div>
+    </div>
+</section>
+
+<section id="countries">
+    <h2>Countries We Serve</h2>
+    <div class="countries">
+        <div class="box">United Kingdom 🇬🇧</div>
+        <div class="box">Australia 🇦🇺</div>
+        <div class="box">UAE 🇦🇪</div>
+        <div class="box">Other Countries 🌍</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: <strong>7505556889</strong></p>
+    <p>📍 Location: India</p>
+    <a class="btn" href="tel:7505556889">Call Now</a>
+    <a class="btn whatsapp" href="https://wa.me/917505556889">Chat on WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2026 Job and Study Abroad | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
